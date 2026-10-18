@@ -1,3 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Avdhesh Tuli: MSc Racing Engine Systems student at Oxford Brookes. Engine simulation, combustion analysis and test-cell work, with worked examples and equations.">
+<meta name="theme-color" content="#0A0B0F">
 <title>Avdhesh Tuli Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -220,6 +227,9 @@ th{font-weight:500;color:var(--muted);font-size:.74rem;letter-spacing:.05em;text
 footer.foot{border-top:1px solid var(--line);padding-block:20px 32px;font-size:.86rem;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
+</head>
+<body>
+
 
 <header class="nav">
   <div class="wrap">
@@ -656,7 +666,7 @@ footer.foot{border-top:1px solid var(--line);padding-block:20px 32px;font-size:.
           </ul>
         </div>
       </div>
-      <div class="callout"><b>Limits.</b> Spring rate, tyre stiffness and masses are assumed values, not measurements. The model is a planar beam model, so fore-aft braking bending is a hand calculation. Interleaf friction is treated as viscous damping, and bump stops are not modelled. Fatigue uses the IIW FAT 71 curve for an as-welded attachment with no extra safety factor. A SolidWorks 2024 frequency study is set up to confirm the 114 Hz mode, and its result is not shown here.</div>
+      <div class="callout"><b>Limits.</b> Spring rate, tyre stiffness and masses are assumed values, not measurements. The model is a planar beam model, so fore-aft braking bending is a hand calculation. Interleaf friction is treated as viscous damping, and bump stops are not modelled. Fatigue uses the IIW FAT 71 curve for an as-welded attachment with no extra safety factor. The 114 Hz clamped-seat mode has not yet been cross-checked in a separate 3D finite-element package.</div>
       <div class="eqs">
         <div class="eq"><span class="f"><i>σ</i> = <span class="fr"><span><i>M c</i></span><span><i>I</i></span></span> &nbsp; <i>I</i> = <span class="fr"><span>π(<i>D</i><sup>4</sup> − <i>d</i><sup>4</sup>)</span><span>64</span></span></span><span class="lbl">Bending stress, tube<br><span style="text-transform:none">I = 1.19 × 10<sup>6</sup> mm<sup>4</sup> for 80 × 8</span></span></div>
         <div class="eq"><span class="f"><i>f</i> = <span class="fr"><span><i>V</i></span><span><i>λ</i></span></span></span><span class="lbl">Frequency a road wave is felt at<br>10 m at 50 km/h gives 1.4 Hz</span></div>
@@ -1030,3 +1040,6 @@ footer.foot{border-top:1px solid var(--line);padding-block:20px 32px;font-size:.
   });
 })();
 </script>
+
+</body>
+</html>
